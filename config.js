@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '',
   siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteTitle: 'Vishnu K | Developer',
+  siteDescription: 'Freelance software developer',
+  author: 'Vishnu K',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
@@ -15,13 +15,14 @@ module.exports = {
     tag: 'tags',
   },
   social: {
-    github: 'https://github.com/rolwin100',
+    github: 'https://github.com/aug-vishnu',
     facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
+    twitter: 'http://twitter.com/vishnu_eh',
+    instagram: 'http://instagram.com/vishnu_eh',
+    discord: 'https://discordapp.com/users/438041041489231892',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/ce47e98c-cb3f-45a4-b973-3008d5c73b64',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
     javascript: {

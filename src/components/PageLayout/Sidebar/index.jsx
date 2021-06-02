@@ -12,7 +12,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  facebook, github, instagram, twitter,
+  github, instagram, twitter, discord,
 } = Config.social;
 
 const DomContent = () => (
@@ -29,9 +29,10 @@ const DomContent = () => (
       <div className={`${style.badge} ${style.badgeGray}`}>Full-stack Developer</div>
       <div className="centerAlign box">
         {/* <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a> */}
-        {/* <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a> */}
+        <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
+        <a href={discord} target="_blank" label="button" rel="noopener noreferrer"><FA name="discord" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
@@ -51,7 +52,7 @@ const DomContent = () => (
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="mailto:vishnuprabhu.bvk@gmail.com"
             target="_top"
           >
             <span className={style.emailHider}>@</span>
@@ -59,7 +60,7 @@ const DomContent = () => (
         </li>
       </ul>
       <div className={style.resumeDownload}>
-        <a href="../resume.pdf" download target="_blank">Download CV</a>
+        <a href="../VishnuFullStack.pdf" download target="_blank">Download CV</a>
       </div>
     </div>
   </aside>

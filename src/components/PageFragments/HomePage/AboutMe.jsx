@@ -27,7 +27,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Vishnu', 'aug-vishnu', 'India', 'Django', 'Freelancer', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -81,7 +81,7 @@ const AboutMe = () => {
             width={60}
           />
         </Col>
-           <Col xs={24} sm={24} md={12} lg={8}>
+        <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meeting.png"
             alt="meeting image"

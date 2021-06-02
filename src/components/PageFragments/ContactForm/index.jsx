@@ -39,7 +39,7 @@ export default () => {
         <Form.Item name={['email']} rules={[{ type: 'email' }]}>
           <Input size="large" placeholder="Email" />
         </Form.Item>
-        <Form.Item name={['description']} rules={[{ required: true }]}>
+        <Form.Item name={['message']} rules={[{ required: true }]}>
           <Input.TextArea size="large" rows={7} placeholder="Description *" />
         </Form.Item>
         <Form.Item>
